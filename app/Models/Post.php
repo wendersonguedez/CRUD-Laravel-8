@@ -10,6 +10,6 @@ class Post extends Model
     use HasFactory;
 
     // Indicando quais campos podem ter atribuição em massa (valores inseridos de uma só vez).
-    protected $fillable = ['title', 'content'];
+    protected $fillable = ['title', 'content', 'image'];
 
 }
